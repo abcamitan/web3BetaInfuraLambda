@@ -1,5 +1,10 @@
 # web3BetaInfuraLambda
-Deploy DAPP to AWS Lambda using Web3 Beta and Infura
+Sample DAPP using AWS Lambda with Node.JS, Web3 Beta, Infura and UP.
+
+## Pre Requisites
+1) Visual Studio Code
+2) AWS Account
+3) APEX Up command
 
 Compiling and Deploying using Remix and Metamask
 
