@@ -1,0 +1,33 @@
+{
+  "name": "web3betainfuralambda",
+  "version": "1.0.0",
+  "description": "Sample DAPP to be deployed in Lambda.",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "node ./node_modules/cucumber/bin/cucumber-js",
+    "start": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abcamitan/web3BetaInfuraLambda.git"
+  },
+  "keywords": [
+    "Node.JS",
+    "Web3",
+    "Lambda",
+    "Infura",
+    "Ethereum"
+  ],
+  "author": "Aries Camitan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abcamitan/web3BetaInfuraLambda/issues"
+  },
+  "homepage": "https://github.com/abcamitan/web3BetaInfuraLambda#readme",
+  "dependencies": {
+    "cucumber": "^4.2.1"
+  }
+}
