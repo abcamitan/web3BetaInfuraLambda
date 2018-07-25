@@ -1,0 +1,15 @@
+{
+  "name":"web3betainfuralambda",
+  "profile":"lambda_test",
+  "regions":["us-east-2"],
+  "lambda": {
+    "memory": 512,
+    "timeout": 0,
+    "role": "arn:aws:iam::545894741165:role/up-role",
+    "runtime": "nodejs8.10"
+  },
+  "vpc": {
+    "subnets": ["subnet-1c27a366", "subnet-9c25a1e6"],
+    "security_groups": ["sg-d1c4a4bb"]
+  }
+}
